@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "reachhitboxes",
+  "version": "${version}",
+  "name": "Reach Hitboxes",
+  "description": "Thick, coloured entity hitboxes with per-part colours and toggles. The hitbox of the entity under your crosshair (inside your reach) changes colour.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.reachhitboxes.ReachHitboxesClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
